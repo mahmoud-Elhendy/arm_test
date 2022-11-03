@@ -1,1 +1,1 @@
-/usr/bin/arm-linux-gnueabi-g++     CMakeFiles/openssl_ex.dir/main.cpp.o  -o openssl_ex  -Wl,-rpath,/home/mahmoud/lmp/build/fort-epc-stm32/build-lmp/tmp-lmp/sysroots-components/cortexa7t2hf-neon-vfpv4/openssl/usr/lib /home/mahmoud/lmp/build/fort-epc-stm32/build-lmp/tmp-lmp/sysroots-components/cortexa7t2hf-neon-vfpv4/openssl/usr/lib/libcrypto.so 
+/usr/bin/arm-linux-gnueabi-g++     CMakeFiles/openssl_ex.dir/main.cpp.o  -o openssl_ex  /home/mahmoud/lmp/build/fort-epc-stm32/build-lmp/tmp-lmp/sysroots-components/cortexa7t2hf-neon-vfpv4/openssl/usr/lib/libcrypto.a -lpthread -ldl 

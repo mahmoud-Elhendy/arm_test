@@ -79,7 +79,7 @@ openssl_ex_EXTERNAL_OBJECTS =
 
 openssl_ex: CMakeFiles/openssl_ex.dir/main.cpp.o
 openssl_ex: CMakeFiles/openssl_ex.dir/build.make
-openssl_ex: /home/mahmoud/lmp/build/fort-epc-stm32/build-lmp/tmp-lmp/sysroots-components/cortexa7t2hf-neon-vfpv4/openssl/usr/lib/libcrypto.so
+openssl_ex: /home/mahmoud/lmp/build/fort-epc-stm32/build-lmp/tmp-lmp/sysroots-components/cortexa7t2hf-neon-vfpv4/openssl/usr/lib/libcrypto.a
 openssl_ex: CMakeFiles/openssl_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mahmoud/arm_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable openssl_ex"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/openssl_ex.dir/link.txt --verbose=$(VERBOSE)
